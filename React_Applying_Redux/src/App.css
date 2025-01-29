@@ -1,0 +1,82 @@
+.App{
+  width: 98.4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-container {
+  padding: 20px;
+  border-radius: 8px;
+}
+.form-container h1,h2{
+  font-weight: 400;
+}
+
+.box-main label{
+  display: flex;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.required {
+  color: red;
+  font-size: 1.2rem;
+  margin-left: 4px;
+}
+
+.box-main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+}
+
+th {
+  padding: 10px;
+}
+
+label {
+  text-align: right;
+  display: inline-block; 
+  width: 150px; 
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  width: 40%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+}
+
+.required {
+  color: red;
+  font-size: 1.2rem;
+}
